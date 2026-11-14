@@ -1,0 +1,6 @@
+{
+  "name": "external-skills",
+  "version": "0.1.0",
+  "description": "Wrapper para skills externas sueltas",
+  "author": { "name": "Producteca Operaciones" }
+}

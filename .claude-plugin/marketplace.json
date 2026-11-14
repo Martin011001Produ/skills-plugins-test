@@ -1,0 +1,25 @@
+{
+  "name": "test-marketplace",
+  "owner": { "name": "Producteca Operaciones" },
+  "metadata": {
+    "description": "PoC de marketplace unificado: skills propias, externas y plugins públicos",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "generic-apps",
+      "source": "./plugins/generic-apps",
+      "description": "Skills del ecosistema de apps genéricas de Producteca"
+    },
+    {
+      "name": "external-skills",
+      "source": "./plugins/external-skills",
+      "description": "Contenedor para skills externas sueltas (SKILL.md)"
+    },
+    {
+      "name": "superpowers",
+      "source": { "source": "github", "repo": "obra/superpowers" },
+      "description": "Plugin público de skills de proceso (brainstorming, TDD, debugging)"
+    }
+  ]
+}
